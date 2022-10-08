@@ -1,7 +1,7 @@
 try:
-    num1 = int(input('Введіть перше число - '))
-    num2 = int(input('Введіть друге число - '))
-    suma = 0
+    num = int(input('Введіть перше число - '))
+    print(f'!{num}=', end='')
+    temp = 1
     for x in range (num1, num2+1):
         suma+=x
 
