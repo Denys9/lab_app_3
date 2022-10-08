@@ -6,7 +6,6 @@ try:
     for x in range (num1, num2+1):
         suma+=x
         avg = suma/counter
-
     else:
         print(f'{suma}\n{avg}')
 
