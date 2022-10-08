@@ -1,10 +1,10 @@
 try:
     num1 = int(input('Введіть перше число - '))
     num2 = int(input('Введіть друге число - '))
-    suma = num1
-    for x in range (num1, num2):
-        num1+=1
-        suma+=num1
+    suma = 0
+    for x in range (num1, num2+1):
+
+        suma+=x
     else:
         print(f'{suma}')
 except Exception as ex:
