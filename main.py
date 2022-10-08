@@ -1,5 +1,5 @@
 try:
-    num = int(input('Введіть перше число - '))
+    num = int(input('Введіть число - '))
     print(f'!{num}=', end='')
     temp = 1
     for item in range (1, num+1):
