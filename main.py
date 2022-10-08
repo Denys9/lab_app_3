@@ -6,11 +6,11 @@ try:
         if var =='v':
             print(sym)
         elif var == 'h':
-            print(sym, end = '')
+            print(sym, end='')
         else:
             raise Exception ('Incorrect choose of var')
 
 except Exception as ex:
     print(f'Eror information: {ex}')
 finally:
-    print('Exit')
+    print('\nExit')
