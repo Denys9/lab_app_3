@@ -1,12 +1,15 @@
 try:
-    num = int(input('Введіть перше число - '))
+    num = int(input('Введіть число - '))
+    sym = input('Введіть символ - ')
+    var = input('Положення [Вертикально - v | Горизонтально - h] - ')
+    for x in range (0, num):
+        if var =='v':
+            print(sym)
+        elif var == 'h':
+            print(sym, end = '')
+        else:
+            raise Exception ('Incorrect choose of var')
 
-    suma = 0
-    for x in range (num1, num2+1):
-
-        suma+=x
-    else:
-        print(f'{suma}')
 except Exception as ex:
     print(f'Eror information: {ex}')
 finally:
